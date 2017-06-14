@@ -1,0 +1,20 @@
+{
+  "name": "typescrript_lean",
+  "version": "1.0.0",
+  "description": "Typescript-lean",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-code":"node dist/main.js"
+  },
+  "keywords": [],
+  "author": "kevin duan",
+  "license": "ISC",
+  "engine":"node >= 6.9.1",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.7",
+    "typescript": "^2.3.4"
+  }
+}
