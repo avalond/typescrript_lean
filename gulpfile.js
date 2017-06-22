@@ -6,5 +6,5 @@ let tsProject = ts.createProject("tsconfig.json");
 gulp.task("build-code", function () {
   return tsProject.src()
     .pipe(tsProject())
-    .js.pipe(gulp.dest("build"));
+    .js.pipe(gulp.dest("build/src"));
 });
